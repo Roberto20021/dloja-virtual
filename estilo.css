@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'roboto', cursive;
+    background-color: rgb(252, 252, 252);;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 27px 9%;
+    border-bottom: 1px solid rgb(241, 243, 246);
+}
+.logo { 
+    display: flex;
+    align-items: center;
+    color: #030568;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.logo i {
+    vertical-align: middle;
+    color: #fd9800;
+    font-size: 35px;
+    margin-right: 10px;
+    padding: 5px;
+   
+}
+
+.links {
+    display: flex;
+    
+}
+
+.links a {
+    color: #141313;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 20px;
+    transition: all ease .55s;
+    
+    
+}
+
+.links a:hover {
+    color: #473dd1;
+}
+
+.links a.active{
+    color: #0f00db;
+}
+
+.h-btn {
+    
+ color: #000;
+ background-color: rgb(253 206 0);
+ border-radius: 15px;
+ padding: 10px 10px;
+ transition: all .55s;
+}
+.h-btn:hover {
+    background-color: #f3e272;
+}
+
+.hero {
+    padding: 10% 10%;
+    display: flex;
+}
+.hero-text p {
+    font-size: 14px;
+    color: #363636;
+}
+h1 {
+    font-size: 36px;
+    color: #363636;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.hero-btn {
+    
+    color: #000;
+    background-color: rgb(253 206 0);
+    border-radius: 15px;
+    padding: 10px 10px;
+    transition: all .55s;
+    padding: 10px;
+    
+   }
+   .hero-btn:hover {
+       background-color: #f3e272;
+   }
+
